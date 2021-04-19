@@ -1,29 +1,28 @@
-
-body{
- 
-  background-image: url(/Imagenes/calpheon.png);
-  background-attachment: fixed;
-  background-size:cover ;
-  background-repeat: no-repeat;
-  display: inherit;
-  color: white;
-  
+body {
+    background-image: url(/Imagenes/calpheon.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inherit;
+    color: white;
 }
-footer {   
+
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 40px;
     color: white;
-  }
+}
+
 .pageContent {
     background: rgba(0, 5, 4, 0.8);
     color: #fff;
     padding: 10px 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
 }
+
 .pageWidth {
     border-radius: 50px;
     color: #fff;
@@ -31,8 +30,13 @@ footer {
     left: 20%;
     box-sizing: border-box;
 }
+
 #carouselEvaluacion {
     margin: 10px 10px;
     clear: both;
     overflow: hidden;
-  }
+}
+
+#img3 {
+    width: 353px;
+}
