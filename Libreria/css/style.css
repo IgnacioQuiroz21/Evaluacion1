@@ -31,8 +31,20 @@ footer {
     left: 20%;
     box-sizing: border-box;
 }
-#carouselEvaluacion {
-    margin: 10px 10px;
-    clear: both;
+.card-border{
+    border: solid 10px #ffffff ;
+    border-radius: 20px;
     overflow: hidden;
-  }
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+ .slide{
+     margin-top: 10px;
+
+ }
+.slide img{
+    height: 290px;
+
+}
