@@ -108,11 +108,11 @@
                                 <h1 class="text-center p-5"> Formulario de Contacto</h1>
                                 <hr>
                             </div>
-                            <!--method="post"-->
-                            <form class="row g-3 p-5 " id="formulario" > 
+                            
+                            <form class="row g-3 p-5 " id="formulario" method="POST" action="Formulario.php" > 
                                 <div class="col-md-4 ">
                                     <label for="nombreFamilia" class="form-label">Nombre de Familia</label>
-                                    <input type="text" class="form-control" id="form_familia" name="" required="">
+                                    <input type="text" class="form-control" id="form_familia" name="familia" required="">
                                     <span class="error_form" id="fnFamilia_error_mensaje"></span>
                                     <!-- **Boostrap tiene validadores para remplazar Jquery! 
                                        <div class="valid-feedback">
@@ -127,7 +127,7 @@
                                 <br>
                                 <div class="col-md-4">
                                     <label for="nombrePersonaje" class="form-label">Nombre de Personaje</label>
-                                    <input type="text" class="form-control" id="form_personaje" name="" required="">
+                                    <input type="text" class="form-control" id="form_personaje" name="personaje" required="">
                                     <span class="error_form" id="fnPersonaje_error_mensaje"></span>
                                     <!-- <div class="valid-feedback">
                                         Suena bien!
@@ -141,7 +141,7 @@
                                 <div class="col-md-4">
                                     <label for="email" class="form-label">Correo Electrónico</label>
                                     <input type="email" class="form-control" placeholder="usuario@correoelectronico.com"
-                                        id="form_email"  name="" required="">
+                                        id="form_email"  name="correo" required="">
                                     <span class="error_form" id="femail_error_mensaje"></span>
                                     <!-- <div class="valid-feedback">
                                         Suena bien!
@@ -159,7 +159,7 @@
                                     <label for="validationTextarea" class="form-label">Descripción</label>
                                     <textarea class="form-control" id="form_descripcion"
                                         placeholder="Deje su mensaje aquí."></textarea>
-                                    <span class="error_form" id="fdescripcion_error_mensaje"  name="" required=""></span>
+                                    <span class="error_form" id="fdescripcion_error_mensaje"  name="descripcion" required=""></span>
                                     <!-- <div class="valid-feedback">
                                         Suena bien!
                                     </div>
@@ -170,7 +170,7 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <button class="btn btn-primary" type="submit" value="Register" name="">Enviar</button>
+                                    <button class="btn btn-primary" type="submit" name="Enviar">Enviar</button>
                                 </div>
                             </form>
                         </div>

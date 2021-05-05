@@ -88,9 +88,9 @@ $(document).ready(function() {
    }
 
    function check_descripcionTexto() {
-    
+     var pattern= /^[a-zA-Z ]+/;
     var FdescripcionTexto = $("#form_descripcion").val()
-    if ( FdescripcionTexto !== '') {
+    if ( pattern.test(FdescripcionTexto) && FdescripcionTexto !== '') {
        $("#fdescripcion_error_mensaje").hide();
        $("#form_descripcion").css("border-bottom","2px solid #34F458");
     } else {
