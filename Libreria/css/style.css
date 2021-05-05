@@ -1,9 +1,9 @@
 body {
-    background-image: url(/Imagenes/calpheon.png);
+    background-image:url("https://3.bp.blogspot.com/-klx5Ki_yNFo/WsZzO1MY5yI/AAAAAAAABBw/pKq52M4-XqEM9UyGdL9luP6IvNJd-PBIQCLcBGAs/s1600/calpheon%2B1.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    display: inherit;
+    
     color: white;
 }
 
