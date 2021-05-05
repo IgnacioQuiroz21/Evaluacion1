@@ -16,7 +16,7 @@
 //      })
 //  })()
 
-$(function() {
+$(document).ready(function() {
     
 
    $("#fnFamilia_error_mensaje").hide();
