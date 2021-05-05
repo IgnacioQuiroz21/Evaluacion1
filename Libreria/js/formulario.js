@@ -76,7 +76,7 @@ $(document).ready(function() {
    function check_email() {
     var pattern = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
     var email = $("#form_email").val();
-    if (pattern.test(email) && email !== '') {
+    if (pattern.test(email) && email !== '' ) {
        $("#femail_error_mensaje").hide();
        $("#form_email").css("border-bottom","2px solid #34F458");
     } else {

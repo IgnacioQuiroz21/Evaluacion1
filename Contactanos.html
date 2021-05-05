@@ -82,7 +82,7 @@
                                     <li class="nav-item ">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">Guias</a>
-                                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                        <ul class="dropdown-menu ">
                                             <li><a class="dropdown-item" href="SistemaCC.html">Sistema de CC</a></li>
                                             <li><a class="dropdown-item" href="TipoCC.html">Tipo de CC</a></li>
                                             <li><a class="dropdown-item" href="Estado.html">Estado de Comabte</a></li>
@@ -111,7 +111,7 @@
                             
                             <form class="row g-3 p-5 " id="formulario" method="POST" action="Formulario.php" > 
                                 <div class="col-md-4 ">
-                                    <label for="nombreFamilia" class="form-label">Nombre de Familia</label>
+                                    <label id="nombreFamilia" class="form-label">Nombre de Familia</label>
                                     <input type="text" class="form-control" id="form_familia" name="familia" required="">
                                     <span class="error_form" id="fnFamilia_error_mensaje"></span>
                                     <!-- **Boostrap tiene validadores para remplazar Jquery! 
@@ -126,7 +126,7 @@
                                 </div>
                                 <br>
                                 <div class="col-md-4">
-                                    <label for="nombrePersonaje" class="form-label">Nombre de Personaje</label>
+                                    <label id="nombrePersonaje" class="form-label">Nombre de Personaje</label>
                                     <input type="text" class="form-control" id="form_personaje" name="personaje" required="">
                                     <span class="error_form" id="fnPersonaje_error_mensaje"></span>
                                     <!-- <div class="valid-feedback">
@@ -139,7 +139,7 @@
                                 </div>
                                 <br>
                                 <div class="col-md-4">
-                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <label id="email" class="form-label">Correo Electrónico</label>
                                     <input type="email" class="form-control" placeholder="usuario@correoelectronico.com"
                                         id="form_email"  name="correo" required="">
                                     <span class="error_form" id="femail_error_mensaje"></span>
@@ -156,10 +156,10 @@
 
 
                                 <div class="mb-3">
-                                    <label for="validationTextarea" class="form-label">Descripción</label>
+                                    <label id="validationTextarea" class="form-label">Descripción</label>
                                     <textarea class="form-control" id="form_descripcion"
-                                        placeholder="Deje su mensaje aquí." name="descripcion"></textarea>
-                                    <span class="error_form" id="fdescripcion_error_mensaje"   required=""></span>
+                                        placeholder="Deje su mensaje aquí." name="descripcion" required=""></textarea>
+                                    <span class="error_form" id="fdescripcion_error_mensaje"   ></span>
                                     <!-- <div class="valid-feedback">
                                         Suena bien!
                                     </div>
@@ -179,7 +179,7 @@
                 </div>
 
 
-                </div>
+                
             </div>
 
 
@@ -190,7 +190,7 @@
 
 
 
-        </div>
+        
 
 
 
